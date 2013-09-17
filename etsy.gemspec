@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.required_rubygems_version = Gem::Requirement.new(">= 0") if gem.respond_to? :required_rubygems_version=
   gem.rubygems_version = "1.8.10"
 
-  gem.add_dependency "json", ">= 1.5.0"
+  gem.add_dependency "json", ">= 1.4.6"
   gem.add_dependency "oauth", "~> 0.4.0"
 
   gem.add_development_dependency "rake", "~> 10.0.4"
